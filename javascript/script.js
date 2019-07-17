@@ -43,4 +43,17 @@ function showImage(n){
     }
     pictures[index-1].classList.add("show");
 }
+var bool=false;
+var footer_icon=document.getElementById('footer1');
+var footer=document.querySelector(".info-accumulator")
+footer_icon.addEventListener('click',function(){
+  bool=!bool;
+  if (bool){
+  footer.style.display="none";
+  }
+  else if(!bool){
+  footer.style.display="block";
+  }
+})
+
 
