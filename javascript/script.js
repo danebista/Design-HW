@@ -35,7 +35,7 @@ showImage1(0);
 var index1=0;
 function plusIndex1(n){
     index1+=n;
-    console.log(index1);
+   
     showImage1(index1);
 }
 
@@ -85,7 +85,7 @@ picturesOne[0].classList.add('show');
 function move1(){
     picturesOne[j].classList.remove("show");
         j++;
-        j = j % ((picturesOne.length)/2)
+        j = j % ((picturesOne.length/2));
         picturesOne[j].classList.add("show");
 
 }

@@ -1789,10 +1789,7 @@ img{
      color: #ffb79b;
  
  }
- .bottom-slider{
-     margin-bottom: 60px;
-     position: relative;
- }
+
  .imagedd{
      width:11.7949%;
      position: absolute;
@@ -2743,9 +2740,10 @@ img{
     display: block;
     line-height: 62px;
 }
-.bottom-slider{
-    display:block;
+.bottom-slider1{
+    display: none;
 }
+
 .side-search{
     display: block;
 }
@@ -2968,6 +2966,7 @@ img{
  
  }
  .bottom-slider{
+     display: block;
      margin-bottom: 60px;
      position: relative;
  }
@@ -3813,6 +3812,12 @@ img{
  /**********************************1200px ********************************************************/
 
 @media only screen and (min-width: 1200px) {
+    .bottom-slider1{
+        display: none;
+    }
+    .bottom-slider{
+        display: block;
+    }
     .sides.right{
         background-image: url(../images/Forma\ 1\ copy.png);
         background-repeat: no-repeat;
