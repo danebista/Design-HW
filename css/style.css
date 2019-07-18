@@ -152,9 +152,15 @@ img{
     .sides:hover{
         background-color: #ffb79b;
     }
+   
+    .body-main-content{
+        max-width: 73.125em;
+        margin: 0px 8px;
+    }
     .body-wrapper{
         padding-bottom: 34px;
     }
+   
 
     .middlefooter{
         display: none;
@@ -173,22 +179,75 @@ img{
     .navbar ul li{
         list-style-type: none;
     }
+    .navbar ul li.menu-toggle ul {
+        
+      position: fixed;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+      background:rgba(0,0,0,0.6);
+      z-index: 999;
+      height: 100%;
+      padding-top: 50px;
+
+
+    }
     .navbar ul li.menu-toggle ul li{
         float: none;
         display:none;
         list-style-type: none;
     }
+    .header-wrapper{
+        box-shadow: none;
+    }
+    .header-container{
+        box-shadow: none;
+    }
     .navbar ul li.menu-toggle:hover ul li{
+
         display: block;
+        text-align: center;
     }
     .navbar ul li.menu-toggle ul li:hover{
         background: #ffd9c4;
     
     }
+    .nabar ul li.menutoggle ul li{
+        border: 0px;
+    }
     .navbar ul li.menu-toggle ul li a:hover{
         color:#fff;
     
     }
+    .navbar ul li.menu-toggle ul li.close{
+        position: absolute;
+        top:10px;
+        width:50px;
+        right:10px;
+        height: 40px;
+        border: none;
+        padding: none;
+    }
+    .navbar ul li.menu-toggle ul{
+       display: none;
+    }
+    
+ 
+    .navbar ul li.menu-toggle ul li.close a{
+        
+        color:#fff;
+        text-align: right;
+        line-height: 40px;
+      
+    
+
+    }
+    .navbar ul li.menu-toggle ul li.close i{
+        display: block;
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    
     .header-left{
         width:100%;
     
@@ -200,6 +259,7 @@ img{
     .navbar ul li.menu-toggle ul li{
         float:none;
         border:1px solid #ffb79b;
+        border-top: none;
         width: 100%;
     }
     .navbar ul li.naving{
@@ -262,8 +322,8 @@ img{
         text-decoration: none;
         display:block;
         line-height: 40px;
-        color:#000;
-        font-size: 7px;
+        color:#fff;
+        font-size: 12px;
         font-family:"Raleway SemiBold";
         text-align: center;
         padding: 0 10px;
@@ -329,6 +389,9 @@ img{
  
      .image.show{
          opacity: 1;
+     }
+     .show{
+         opacity:1;
      }
    
 .left-sided {
@@ -422,22 +485,28 @@ img{
  }
  .tab{
      display:block;
+     margin: 0 auto;
+     font-size: 17px;
+
  }
+ .re-post span {
+    font-family: 'Raleway SemiBold';
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 26px;
+    color: "#424242";
+}
  .re-postcon{
    display: block;
    margin-bottom: 30px;
+
  }
- .main-3.right
+ 
  .re-post{
      width:20.4819%;
      border-bottom: 2px solid #ffb79b;
  }
- .re-post span{
-     font-family: 'Raleway SemiBold';
-     font-size: 11px;
-     line-height: 26px;
-     color: "#424242";
- }
+ 
  
  .border-res {
      width: 79.5181%;
@@ -757,7 +826,7 @@ img{
  
  }
  .grid-article-container{
-     margin-bottom: 30px;
+     display: none;
  }
  
  .side-search .search-bar1{
@@ -803,8 +872,8 @@ img{
  }
  .side-popular-posts-container{
       
-     width: 85.1852%;
-     margin: 0 auto;
+     width: 95.1852%;
+     margin: 0 7px;
  }
  .side-popular-posts-container .re-postcon .re-post span{
      font-size: 14px;
@@ -1030,15 +1099,18 @@ img{
    .data-container-3 ul li:hover i{
      color: #fff;
    }
-   .sidebar-slider{
-       background: #fff;
-   }
+ 
   .sidebar-slider .side-popular-posts-container .photo-loader-3{
      margin: 30px 0px  0px;
    }
    .sidebar-slider{
        padding-bottom: 30px;
        box-shadow: 1px 1px #eaeaeb;
+   }
+   .sidebar-slider1{
+       display:block;
+       margin: 30px 0px  0px;
+       background: inherit;
    }
     .photo-loader-3-con{
         position: relative;
@@ -1048,7 +1120,7 @@ img{
      background: white;
      color:#ffb79b;
      position: absolute;
-     top:65px;
+     top:45%;
      left:0px;
      
    }
@@ -1057,7 +1129,7 @@ img{
      background: white;
      color:#ffb79b;
      position: absolute;
-     top:64px;
+     top:45%;
      left:84%;
     
    }
@@ -1112,13 +1184,7 @@ img{
      margin-left: 30px;
   
  }
- .title-foot span{
-     display: block;
-     line-height: 22px;
-     font-size:9px;
-     font-family: 'Raleway SemiBold';
-     width:auto;
- }
+
  .title-foot{
      border-bottom: 2px solid #ffb79b;
  }
@@ -1181,6 +1247,7 @@ img{
     font-family: "Raleway Medium";
     font-weight:100;
     line-height: 63px;
+    font-size: 15px;
  }
  .text-paragraph p{
      line-height: 18px;
@@ -1196,13 +1263,31 @@ img{
      color:#ffb79b;
      font-size: 9px;
  }
- .text-1{
-     padding-bottom: 30px;
-     border-bottom:1px solid #eaeaeb;
- }
+
+ .text-1 {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eaeaeb;
+    background: #fff;
+}
+.title-foot span {
+    margin-top: 30px;
+    display: block;
+    line-height: 22px;
+    font-size: 17px;
+    font-family: 'Raleway SemiBold';
+    width: auto;
+}
  .text-2{
      padding-bottom: 30px;
      border-bottom: 1px solid #eaeaeb;
+     background: #fff;
+     margin-bottom: 30px;
+ }
+ .text-3{
+     background-color: #fff;
+     padding-bottom: 30px;
  }
  .text-3-para{
      line-height: 24px;
@@ -1245,12 +1330,14 @@ img{
     display: none;
 }
 .side-popular-posts-container .re-postcon .re-post span {
-    font-size: 12px;
-    display: block;
-    line-height: 35px;
+        font-size: 17px;
+        display: block;
+        line-height: 35px;
+    
 }
 .logo-container{
     padding: 25px 0px;
+    padding-top: 40px;
 }
 .right-border{
     display: none;
@@ -1262,13 +1349,33 @@ img{
     display: none;
 }
 .invis{
+    display: none;
+}
+.mobvis{
     display: block;
 }
+
 .sidebar-add{
     display: none;
 }
 .sidebar-slider{
-    display: none;
+    display: block;
+}
+.sidebar-slider-image{
+    height:280px;
+}
+.sidebar-slider-image img{
+   width:100%;
+   height:270px;
+   position: absolute;
+   top:0px;
+   left:0px;
+   overflow: hidden;
+   opacity: 0;
+   transition: all ease-in-out .2s;
+}
+.sidebar-slider-image img.show{
+   opacity: 1;
 }
 .border-foot-container{
     display: none;
@@ -1291,14 +1398,183 @@ img{
 .image-encloser-4{
     display: none;
 }
+.re-post{
+    width: 40%;
+}
+.article-wrapper{
+    margin-bottom: 40px;
+}
+.grid-artices.mob{
+    display: none;
+}
+.logo{
+    width: 64%;
+    
+    margin:0 auto;
+
+}
+.logo img{
+    width: 100%;
+    height:101px;
+    background-attachment: fixed;
+}
 }
 /**************************************TAB****************************************/
 @media only screen and (min-width: 600px) { 
+    .sidebar-slider1{
+        display: none;
+    }
+    .search-icon i{
+      line-height: 50px;
+    }
+    .body-main-content{
+      margin: 0 8px;
+    }
     .sides.right{
         background-image: url(../images/Forma\ 1\ copy.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
     
+    }
+    .navbar ul li{
+        list-style-type: none;
+    }
+    .navbar ul li.menu-toggle ul {
+        
+      position: fixed;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+      background:rgba(0,0,0,0.6);
+      z-index: 999;
+      height: 100%;
+      padding-top: 50px;
+
+
+    }
+    .navbar ul li.menu-toggle ul li{
+        float: none;
+        display:none;
+        list-style-type: none;
+    }
+    .navbar ul li.menu-toggle:hover ul li{
+
+        display: block;
+        text-align: center;
+    }
+    .navbar ul li.menu-toggle ul li:hover{
+        background: #ffd9c4;
+    
+    }
+    .nabar ul li.menutoggle ul li{
+        border: 0px;
+    }
+    .navbar ul li.menu-toggle ul li a:hover{
+        color:#fff;
+    
+    }
+    .navbar ul li.menu-toggle ul li.close{
+        position: absolute;
+        top:10px;
+        width:50px;
+        right:10px;
+        height: 40px;
+        border: none;
+        padding: none;
+    }
+    .navbar ul li.menu-toggle ul{
+       display: none;
+    }
+    
+ 
+    .navbar ul li.menu-toggle ul li.close a{
+        
+        color:#fff;
+        text-align: right;
+        line-height: 40px;
+    }
+    .navbar ul li.menu-toggle ul li.close i{
+        display: block;
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    .navbar ul li.menu-toggle:hover ul li{
+
+        display: block;
+        text-align: center;
+    }
+    .navbar ul li.menu-toggle ul li:hover{
+        background: #ffd9c4;
+    
+    }
+    .nabar ul li.menutoggle ul li{
+        border: 0px;
+    }
+    .navbar ul li.menu-toggle ul li a:hover{
+        color:#fff;
+    
+    }
+    .navbar ul li.menu-toggle ul li.close{
+        position: absolute;
+        top:10px;
+        width:50px;
+        right:10px;
+        height: 40px;
+        border: none;
+        padding: none;
+    }
+    .navbar ul li.menu-toggle ul{
+       display: none;
+    }
+    
+ 
+    .navbar ul li.menu-toggle ul li.close a{
+        
+        color:#fff;
+        text-align: right;
+        line-height: 40px;
+      
+    
+
+    }
+    .navbar ul li.menu-toggle ul li.close i{
+        display: block;
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        display:block;
+        line-height: 50px;
+        color:#000;
+        font-size: 9px;
+        font-family:"Raleway SemiBold";
+        text-align: right;
+        
+        padding: 0 10px;
+      }
+      .navbar ul li a i{
+          font-size: 12px;
+          display: block;
+          line-height: 40px;
+      }
+      .navbar ul li.menu-toggle ul li a{
+         text-decoration: none;
+         display:block;
+         line-height: 40px;
+         color:#fff;
+         font-size: 12px;
+         font-family:"Raleway SemiBold";
+         text-align: center;
+         padding: 0 10px;
+      }
+    
+    .data-holder-1{
+        display: none;
+    }
+    .logo{
+        width: 27.2735%;
+        margin:0 auto;
     }
     .image-encloser-4{
         display: block;
@@ -1319,6 +1595,9 @@ img{
         padding-bottom: 34px;
     }
 
+    .middlefooter-1{
+        display: none;
+    }
     .middlefooter{
         display: none;
     }
@@ -1332,10 +1611,6 @@ img{
     
     .span-slider{
         padding-right: 0px;
-    }
-    .navbar ul li.menu-toggle ul li{
-        float: none;
-        display:none;
     }
  
    
@@ -1369,14 +1644,8 @@ img{
     .header-container{
         margin: 0 auto;
     }
-    .navbar ul li{
-        margin-right:0px;
-        float:none;
-    }
-    .navbar ul li a{
-        text-align: left;
-        font-size: 12px;
-    }
+  
+   
  .header-right{
      display: none;
  }
@@ -1388,21 +1657,8 @@ img{
    .left-sided.a {
     margin: 0 65.5px;
 } 
-     .navbar ul li a{
-       text-decoration: none;
-       display:block;
-       line-height: 50px;
-       font-size: 9px;
-       font-family:"Raleway SemiBold";
-       text-align: right;
-       
-       padding: 0 10px;
-     }
-     .navbar ul li a i{
-         font-size: 14px;
-         display: block;
-         line-height: 50px;
-     }
+    
+     
      .navbar ul li.menu-toggle ul li a{
         text-decoration: none;
         display:block;
@@ -2390,6 +2646,9 @@ img{
 .invis{
     display: block;
 }
+.mobvis{
+    display: none;
+}
 .sidebar-add{
     display: none;
 }
@@ -2402,7 +2661,13 @@ img{
 }
 /*****************************************PC**************************/
 @media only screen and (min-width:900px){
+.middlefooter-1{
+    display: none;
+}
 
+.mobvis{
+    display:none;
+}
 .body-main-content{
     margin:0 10px;
 }
@@ -2508,11 +2773,12 @@ img{
 .submit{
     width:18.8889%;
   }
- .navbar ul li.menu-toggle{
-        display: none;
-    }
+ 
     .navbar ul li.naving{
         display: block;
+    }
+    .navbar ul li.menu-toggle{
+       display: none;
     }
     .navbar ul li.naving.active a{
         color:#ffb79b;
@@ -3327,6 +3593,7 @@ img{
    }
    .sidebar-slider{
        background: #fff;
+
    }
   .sidebar-slider .side-popular-posts-container .photo-loader-3{
      margin: 30px 0px  0px;
@@ -3335,9 +3602,27 @@ img{
        padding-bottom: 30px;
        box-shadow: 1px 1px #eaeaeb;
    }
+    .sidebar-slider-image{
+        height:155px;
+    }
+   .sidebar-slider-image img{
+       position: absolute;
+       top:0px;
+       left:0px;
+       overflow: hidden;
+       opacity: 0;
+       transition: all ease-in-out .2s;
+   }
+
+   .sidebar-slider-image img.show{
+       opacity: 1;
+   }
     .photo-loader-3-con{
         position: relative;
+    
+    
     }
+   
    .photo-loader-3-arrows{
      width:15.6528%;
      background: white;
@@ -3538,6 +3823,7 @@ img{
         margin:0 auto;
         max-width: 72.125em;
     }
+   
     .slider .sides.left:focus{
         opacity: 0.2;
         background-color: forestgreen;

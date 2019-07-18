@@ -27,8 +27,8 @@
                     </div>
                     <div class="navbar right clearfix">
                         <ul>
-                                <li class="menu-toggle"><a href="#"><i class="fas fa-bars"></i></a>
-                                        <ul>
+                                <li class="menu-toggle" id="menu-getter"><a href="#"><i class="fas fa-bars"></i></a>
+                                        <ul class="slider-overlay">
                                                 <li><a href="#">HOME</a></li>
                                                 <li><a href="#">POST TYPES</a></li>
                                                 <li><a href="#">FEATURES</a></li>
@@ -36,6 +36,8 @@
                                                 <li><a href="#">FASHION</a></li>
                                                 <li><a href="#">MUSIC</a></li>
                                                 <li><a href="#">CONTACT</a></li>
+                                                <li class="close"><a href="#"><i class="fa fa-window-close"></i></a></li>
+                                        
         
                                         </ul>
                                </li>
@@ -101,8 +103,8 @@
               </div>
               <div class="bottom-slider clearfix">
                   
-                  <div class="b1 left"><i class="fas fa-chevron-left"></i></div>
-                  <div class="b1 right"><i class="fas fa-chevron-right"></i></div>
+                  <div class="b1 left"><i class="fas fa-chevron-left" id="left-arrow"></i></div>
+                  <div class="b1 right"><i class="fas fa-chevron-right" id="right-arrow"></i></div>
                   <div class="b2 left"><img src="images/i1.png" alt="i1"></div>
                   <div class="b2 left"><img src="images/i1.png" alt="i1"></div>
                   <div class="b2 left"><img src="images/i1.png" alt="i1"></div>
@@ -114,6 +116,37 @@
               <div class="body-main-content clearfix">
                   <div class="main-9 left clearfix">
                       <div class="main-9-1" id="nav-data">
+                            <div class="sidebar-slider1">
+                                    <div class="side-popular-posts-container">
+                                            <div class="re-postcon clearfix">
+                                                    <div class="re-post left">
+                                                        <span>LATEST FEED</span>
+                                                    </div>
+                                                    
+                                            </div>  
+                                            <div class="photo-loader-3">
+                                                <div class="photo-loader-3-con">
+                                                   <div class="sidebar-slider-image clearfix" alt="sidebar-image">
+                                                        <img  src="./images/imageee1.jpg" alt="side-slide">
+                                                        <img src="./images/imageee2.jpg" alt="side-slide">
+                                                        <img src="./images/imageee3.jpg" alt="side-slide">
+                                    
+                                                    </div>
+                                                
+                                                <div class="photo-loader-3-arrows">
+                                                        <i class="fas fa-chevron-left" id="arrow1" onclick="plusIndex1(-1)"  ></i>
+                                                </div>
+                                                <div class="multiple">
+                                                        <i class="fas fa-chevron-right" id="arrow2" onclick="plusIndex1(1)" ></i>
+                                                </div>
+
+                                                </div>  
+
+                                                
+                                               
+                                            </div>
+                                    </div>
+                               </div>
                            <div class="re-postcon clearfix">
                                <div class="re-post left">
                                    <span class="pc">RECENT POST</span>
@@ -172,6 +205,108 @@
 
 
                            </div>
+                           <div class="data-holder-1" id="nav-data">
+                                <div class="dh-photo">
+                                    <img src="./images/rectangle-39.jpg" alt="rect">
+                                    <div class=icon><img src="./images/back-image.png" alt="back-image"></div>
+                                    <div class="icon1"><img src="./images/icon.png" alt="back"></div>
+                                </div>
+                                <div class="article-wrapper">
+                                <div class="title">
+                                    <h2>EXPLORING SAN FRANSISCO'S CUISINE</h2>
+                                </div>
+                                <div class="title-side">
+                                    <span class="initial-txt">BY</span><span class="name">: JHONE DOE</span><span class="date">SEPTEMBER 11 2015</span>
+                                </div>
+                                <div class="title-border clearfix">
+                                    
+                                    <div class="left-border left">
+                                        .
+                                    </div>
+                                 
+ 
+                                </div>
+                                <div class="paragraph-content">
+                                    <div class="paragraph-1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum that it has a more-or-less normal distribution of letters, as opposed to using 
+                                         'Content here, content here. 
+                                        </p>
+                                    </div>
+                                    <div class="cont-button clearfix">
+                                        <div class="but1 left">
+                                            <button>CONTINUE READING</button>
+                                        </div>
+                                        <div class="nav-list1 right">
+                                             <ul>
+                                                     <li><i class="fas fa-share-alt"></i></li>
+                                                     <li><i class="fab fa-twitter"></i></li>
+                                                     <li><i class="fab fa-tumblr"></i></li>
+                                                     <li><i class="fab fa-google"></i></li>
+                                                     <li class="facebook"><i class="fab fa-facebook-f"></i></li>
+                                              </ul>
+                                                
+                                        </div>
+ 
+                                    </div>
+ 
+                                </div>
+                             </div>   
+ 
+ 
+                         </div>
+                         <div class="data-holder-1" id="nav-data">
+                                <div class="dh-photo">
+                                    <img src="./images/rectangle-39.jpg" alt="rect">
+                                    <div class=icon><img src="./images/back-image.png" alt="back-image"></div>
+                                    <div class="icon1"><img src="./images/icon.png" alt="back"></div>
+                                </div>
+                                <div class="article-wrapper">
+                                <div class="title">
+                                    <h2>EXPLORING SAN FRANSISCO'S CUISINE</h2>
+                                </div>
+                                <div class="title-side">
+                                    <span class="initial-txt">BY</span><span class="name">: JHONE DOE</span><span class="date">SEPTEMBER 11 2015</span>
+                                </div>
+                                <div class="title-border clearfix">
+                                    
+                                    <div class="left-border left">
+                                        .
+                                    </div>
+                                 
+ 
+                                </div>
+                                <div class="paragraph-content">
+                                    <div class="paragraph-1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum that it has a more-or-less normal distribution of letters, as opposed to using 
+                                         'Content here, content here. 
+                                        </p>
+                                    </div>
+                                    <div class="cont-button clearfix">
+                                        <div class="but1 left">
+                                            <button>CONTINUE READING</button>
+                                        </div>
+                                        <div class="nav-list1 right">
+                                             <ul>
+                                                     <li><i class="fas fa-share-alt"></i></li>
+                                                     <li><i class="fab fa-twitter"></i></li>
+                                                     <li><i class="fab fa-tumblr"></i></li>
+                                                     <li><i class="fab fa-google"></i></li>
+                                                     <li class="facebook"><i class="fab fa-facebook-f"></i></li>
+                                              </ul>
+                                                
+                                        </div>
+ 
+                                    </div>
+ 
+                                </div>
+                             </div>   
+ 
+ 
+                         </div>
                            <div class="adj-articles clearfix">
                                <div class="adj-art1 left">
                                   <div class="adj-photo1">
@@ -276,6 +411,9 @@
                                  <div class="grid-photo-left left">
                                     <img class="vis" src="./images/grid.jpg" alt="#">
                                     <img class="invis" src="./images/grid1.jpg" alt="#">
+                                    <img class ="mobvis" src="./images/grid-3.jpg" alt="images">
+                                   
+                                    
                                  </div>
                                  <div class="grid-info-right right">
                                      <div class="gridding">
@@ -326,6 +464,7 @@
                                     <div class="grid-photo-left left">
                                         <img class="vis" src="./images/grid.jpg" alt="#">
                                         <img class="invis" src="./images/grid1.jpg" alt="#">
+                                        <img class ="mobvis" src="./images/grid-3.jpg" alt="images">
    
                                     </div>
                                     <div class="grid-info-right right">
@@ -370,10 +509,11 @@
                                 </div>
                               </div>
                               <div class="grid-article-container">
-                                    <div class="grid-artices clearfix">
+                                    <div class="grid-artices mob clearfix">
                                         <div class="grid-photo-left left">
                                             <img class="vis" src="./images/grid.jpg" alt="#">
                                             <img class="invis" src="./images/grid1.jpg" alt="#">
+                                            <img class ="mobvis" src="./images/grid-3.jpg" alt="images">
                                         </div>
                                         <div class="grid-info-right right">
                                             <div class="gridding">
@@ -417,10 +557,11 @@
                                     </div>
                                   </div>
                                   <div class="grid-article-container">
-                                        <div class="grid-artices clearfix">
+                                        <div class="grid-artices mob clearfix">
                                             <div class="grid-photo-left left">
                                                 <img class="vis" src="./images/grid.jpg" alt="#">
                                                 <img class="invis" src="./images/grid1.jpg" alt="#">
+                                                <img class ="mobvis" src="./images/grid-3.jpg" alt="images">
                                             </div>
                                             <div class="grid-info-right right">
                                                 <div class="gridding">
@@ -463,6 +604,34 @@
            
                                         </div>
                                       </div>
+                                      <div class="middlefooter-1 left">
+                                            <div class="title-foot-cont clearfix">
+                                                    <div class="title-foot left">
+                                                        <span>LATEST TWEET</span>
+                                                    </div>
+                                                   
+                                            </div>
+                                            <div class="text-1">
+                                                <div class="text-head"><h3>SCOTT MANSON</h3></div>
+                                                <div class="text-paragraph"><p>Developer Advocate @heyval is a you know very well hi hello because you are excited and you are ready to start an adventure tomorrow awesome lorem ipsum lorem ipsum random default tesxt to be put here</p></div>
+                                                <div class="text-span"><span><i class="fab fa-twitter">@Twittermagicalrebekah</i></span></div>
+                    
+                                            </div>
+                                            <div class="text-2">
+                                                    <div class="text-head"><h3>ZAKAR JHON</h3></div>
+                                                    <div class="text-paragraph"><p>Developer Advocate @heyval is a you know very well hi hello because you are excited and you are ready to start an adventure tomorrow awesome  lorem ipsum lorem ipsum random default tesxt to be put here</p></div>
+                                                    <div class="text-span"><span><i class="fab fa-twitter">@Twittermagicalrebekah</i></span></div>
+                                            </div>
+                                            <div class="text-3">
+                                                    <div class="text-head"><h3>ZAKAR JHON</h3></div>
+                                                    <div class="text-paragraph"><p>Developer Advocate @heyval is a you know very well hi hello because you are excited and you are ready to start an adventure tomorrow awesome  lorem ipsum lorem ipsum random default tesxt to be put here</p></div>
+                                                    <div class="text-span"><span><i class="fab fa-twitter">@Twittermagicalrebekah</i></span></div>
+                                            </div>
+
+                            
+                                             
+                                   
+                                    </div>
                         </div>
                 
                   </div>
@@ -630,13 +799,20 @@
                                             </div>  
                                             <div class="photo-loader-3">
                                                 <div class="photo-loader-3-con">
-                                                <img src="./images/side-slide.png" alt="side-slide">
+                                                   <div class="sidebar-slider-image clearfix" alt="sidebar-image">
+                                                        <img  src="./images/imageee1.jpg" alt="side-slide">
+                                                        <img src="./images/imageee2.jpg" alt="side-slide">
+                                                        <img src="./images/imageee3.jpg" alt="side-slide">
+                                    
+                                                    </div>
+                                                
                                                 <div class="photo-loader-3-arrows">
-                                                        <i class="fas fa-chevron-left"></i>
+                                                        <i class="fas fa-chevron-left" id="arrow1" onclick="plusIndex1(-1)"  ></i>
                                                 </div>
                                                 <div class="multiple">
-                                                        <i class="fas fa-chevron-right"></i>
+                                                        <i class="fas fa-chevron-right" id="arrow2" onclick="plusIndex1(1)" ></i>
                                                 </div>
+
                                                 </div>  
 
                                                 
