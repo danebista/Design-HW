@@ -107,6 +107,7 @@ img{
 }
 .footer-wrapper{
     background-color:#f7f7f7;
+    padding-bottom: 30px;
 }
 .footer-container{
     max-width:73.125em;
@@ -572,7 +573,7 @@ img{
      font-weight: bold;
      padding-right: 17px;
      font-size: 10px;
-    
+     text-decoration: none;
  }
  .date{
      font-size: 7px;
@@ -1893,6 +1894,7 @@ img{
      font-weight: bold;
      padding-right: 17px;
      font-size: 10px;
+     text-decoration: none;
     
  }
  .date{
@@ -2901,7 +2903,7 @@ img{
  .left-sided{
      width:16.8377%;
      border-bottom: 2px solid #ffb79b;
-     
+     margin-bottom:0px;
  }
  .slider-nav .left-sided span{
      line-height: 26px;
@@ -2954,9 +2956,7 @@ img{
      background: #ffb79b;
   
  }
- .left-sided{
-     margin-bottom: 0px;
- }
+ 
  .slider-nav{
      margin-bottom: 45px;
      background: url(../images/border.png);
@@ -3059,7 +3059,7 @@ img{
      color:#ffb79b;
      font-weight: bold;
      padding-right: 17px;
-
+     text-decoration: none;
     
  }
  .date{
