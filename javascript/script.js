@@ -65,16 +65,11 @@ function showImage1(n){
 }
 var bool=false;
 var footer_icon=document.getElementById('footer1');
-var footer=document.querySelector(".info-accumulator")
+var head=document.getElementById("head");
 footer_icon.addEventListener('click',function(){
-  bool=!bool;
-  if (bool){
-  footer.style.display="none";
+  head.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
   }
-  else if(!bool){
-  footer.style.display="block";
-  }
-})
+)
 var picturesOne=document.querySelectorAll(".sidebar-slider-image img");
 console.log(picturesOne);
 var postSliderArrow=document.getElementById("left-arrow1");

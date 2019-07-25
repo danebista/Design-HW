@@ -303,7 +303,7 @@ img{
        height:241.2px;
    }
    
-   .left-sided.a {
+   .fashion-topic.a {
     margin: 0 65.5px;
 } 
      .navbar ul li a{
@@ -401,12 +401,12 @@ img{
          opacity:1;
      }
    
-.left-sided {
+.fashion-topic {
         width: 25%;
         border-bottom: 2px solid #ffb79b;
         margin-bottom: 40px;
 }
- .slider-nav .left-sided span{
+ .slider-nav .fashion-topic span{
      line-height: 26px;
      display:inline-block;
      font-size:10px;
@@ -429,11 +429,11 @@ img{
  }
 
 
- .b1{
+ .b-arrow{
      width: 3.0770%;
      background:#dcdcdc;
  }
- .b1 i{
+ .b-arrow i{
      
      line-height: 163px;
      display: block;
@@ -441,30 +441,30 @@ img{
      color: #ffb79b;
      
  }
- .b2{
+ .instagram-imagess{
      width:23.4615%;
      background: green;
      line-height: 0px;
    
  }
- .b2 img{
+ .instagram-imagess img{
      height: 162.67px;
      
  }
- .b2.right{
+ .instagram-imagess.right{
      border-right: none;
  }
- .b1.left i:hover{
+ .b-arrow.left i:hover{
      color:#fff;
      background: #ffb79b;
   
  }
- .b1.right i:hover{
+ .b-arrow.right i:hover{
      color:#fff;
      background: #ffb79b;
   
  }
- .left-sided span.active{
+ .fashion-topic span.active{
      color: #ffb79b;
  
  }
@@ -472,7 +472,7 @@ img{
      margin-bottom: 60px;
      position: relative;
  }
- .imagedd{
+ .overlay-insta-image{
      width:11.7949%;
      position: absolute;
      top:0px;
@@ -1672,7 +1672,7 @@ img{
        height:241.2px;
    }
    
-   .left-sided.a {
+   .fashion-topic.a {
     margin: 0 65.5px;
 } 
     
@@ -1749,12 +1749,12 @@ img{
          opacity: 1;
      }
    
-.left-sided {
+.fashion-topic {
         width: 25%;
-        border-bottom: 2px solid #ffb79b;
+
         margin-bottom: 45px;
 }
- .slider-nav .left-sided span{
+ .slider-nav .fashion-topic span{
      line-height: 26px;
      display:inline-block;
      font-size:10px;
@@ -1770,11 +1770,11 @@ img{
      background-position: 50% 50%;
  }
 
- .b1{
+ .b-arrow{
      width: 3.0770%;
      background:#dcdcdc;
  }
- .b1 i{
+ .b-arrow i{
      
      line-height: 163px;
      display: block;
@@ -1782,35 +1782,35 @@ img{
      color: #ffb79b;
      
  }
- .b2{
+ .instagram-imagess{
      width:23.4615%;
      background: green;
      line-height: 0px;
    
  }
- .b2 img{
+ .instagram-imagess img{
      height: 162.67px;
      
  }
- .b2.right{
+ .instagram-imagess.right{
      border-right: none;
  }
- .b1.left i:hover{
+ .b-arrow.left i:hover{
      color:#fff;
      background: #ffb79b;
   
  }
- .b1.right i:hover{
+ .b-arrow.right i:hover{
      color:#fff;
      background: #ffb79b;
   
  }
- .left-sided span.active{
+ .fashion-topic span.active{
      color: #ffb79b;
  
  }
 
- .imagedd{
+ .overlay-insta-image{
      width:11.7949%;
      position: absolute;
      top:0px;
@@ -2843,7 +2843,7 @@ img{
        height:446.67px;
    }
    
-    .left-sided.a {
+    .fashion-topic.a {
         margin: 0 215.5px;
     } 
      .navbar ul li a{
@@ -2929,12 +2929,12 @@ img{
         margin-right: 30px;
     }
  
- .left-sided{
+ .fashion-topic{
      width:16.8377%;
      border-bottom: 2px solid #ffb79b;
      margin-bottom:0px;
  }
- .slider-nav .left-sided span{
+ .slider-nav .fashion-topic span{
      line-height: 26px;
      display:inline-block;
      font-size:10px;
@@ -2950,11 +2950,11 @@ img{
      background-position: 50% 50%;
  }
 
- .b1{
+ .b-arrow{
      width: 3.0770%;
      background:#dcdcdc;
  }
- .b1 i{
+ .b-arrow i{
      
      line-height: 163px;
      display: block;
@@ -2962,25 +2962,25 @@ img{
      color: #ffb79b;
      
  }
- .b2{
+ .instagram-imagess{
      width:23.4615%;
      background: green;
      line-height: 0px;
    
  }
- .b2 img{
+ .instagram-imagess img{
      height: 162.67px;
      
  }
- .b2.right{
+ .instagram-imagess.right{
      border-right: none;
  }
- .b1.left i:hover{
+ .b-arrow.left i:hover{
      color:#fff;
      background: #ffb79b;
   
  }
- .b1.right i:hover{
+ .b-arrow.right i:hover{
      color:#fff;
      background: #ffb79b;
   
@@ -2992,7 +2992,7 @@ img{
      background-repeat: repeat-x;
      background-position: bottom;
  }
- .left-sided span.active{
+ .fashion-topic span.active{
      color: #ffb79b;
  
  }
@@ -3001,7 +3001,7 @@ img{
      margin-bottom: 60px;
      position: relative;
  }
- .imagedd{
+ .overlay-insta-image{
      width:11.7949%;
      position: absolute;
      top:0px;
@@ -3924,28 +3924,28 @@ img{
  
   
 
-.left-sided.a{
+.fashion-topic.a{
     margin: 0 289.5px;
 }
 .span-slider{
     padding-right:21px;
 }
 
-.b1 i{
+.b-arrow i{
     
     line-height: 202.35px;
   
 }
-.b2 img{
+.instagram-imagess img{
     height: initial;
 }
-.b2{
+.instagram-imagess{
     width:23.4615%;
   
     line-height: 0px;
   
 }
-.b2.right{
+.instagram-imagess.right{
     border-right: none;
 }
 
